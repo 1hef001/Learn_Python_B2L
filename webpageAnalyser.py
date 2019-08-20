@@ -9,17 +9,17 @@ layout = [[s.Text("Enter URL"), s.InputText("", key = "url")],
           [s.Text('The number of unique words required:'),s.Slider(range=(1, 100), default_value=1,
                      orientation="horizontal", key="val")],
           [s.Multiline(key="data",size=(30, 10),disabled=True)],
-          [s.Button("GET"), s.Exit()]]
+          [s.Button("SUBMIT"), s.Exit()]]
 
 
-window = s.Window('Web Page Analyser', layout)
+window = s.Window('Web Page Analyser and spell checker', layout)
 
 while True:
     event, values = window.Read()
     print(event, values)
     if event is None or event == "Exit":
         break
-    elif(event == "GET"):
+    elif(event == "SUBMIT"):
         url = values["url"]
         text = analyzerFns.url(url)
         txt = "The web page consists of the following information: \n \n"
