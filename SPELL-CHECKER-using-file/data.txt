@@ -1,0 +1,19 @@
+In computer science, artificial inteligence (AI), sometimes called machine inteligence,
+is inteligence demonstrated by machines, in contrast to the natural inteligence displayed 
+by humans. Colloquially, the term "artificial inteligence" is often used to describe machines
+(or computers) that mimic "cognitive" functions that humans associate with the human mind, such
+as "learning" and "problem solving". As machines become increasingly capable, tasks considered 
+to require "inteligence" are often removed from the definition of AI, a phenomenon known as the 
+AI effect. A quip in Tesler's Theorem says "AI is whatever hasn't been done yet." For 
+instance, optical character recognition is frequently excluded from things considered to be AI,
+having become a routine technology. Modern machine capabilities generally classified as AI 
+include successfully understanding human speech, competing at the highest level in strategic 
+game systems (such as chess and Go), autonomously operating cars, intelligent routing in content 
+delivery networks, and military simulations. Artificial inteligence can be classified into three
+different types of systems: analytical, human-inspired, and humanized artificial inteligence.
+Analytical AI has only characteristics consistent with cognitive inteligence; generating a 
+cognitive representation of the world and using learning based on past experience to inform 
+future decisions. Human-inspired AI has elements from cognitive and emotnl inteligence; 
+understanding human emotions, in addition to cognitive elements, and considering them in their
+decision making. Humanized AI shows characteristics of all types of competencies (i.e., cognitive,
+emotnl, and social inteligence), is able to be self-conscious and is self-aware in interactions. 
