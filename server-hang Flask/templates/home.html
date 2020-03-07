@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+</head>
+<body>
+    <h1>ABOUT US</h1>
+    
+
+    <h3>Grim Reaper</h3>
+
+    <div>Donning one of the names of the Devil...</div>
+    <br>
+    <h3>Catastrophe</h3>
+    <br>
+    <div>As the name suggests...</div>
+    <br>
+    <br>
+    <div>Wherever they go, destruction follows</div>
+
+    <form action="/WebPageAnalyzer">
+        <!-- <input type="text" name="url"> -->
+        <a href="{{ url_for('finWebpage') }}"><button>Web Page Analyzer</button></a>
+    </form>
+    <form action="/todo">
+        <!-- <input type="text" name="url"> -->
+        <a href="{{ url_for('initTodo') }}"><button>To Do List</button></a>
+    </form>
+</body>
+</html>

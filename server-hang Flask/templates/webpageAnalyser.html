@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Web Page Analyser and Spell Checker</title>
+</head>
+<body>
+    <h1>Webpage Analyser</h1>
+    <form action="WebPageAnalyzer/url" method="POST">
+        <input type="text" name="url">
+        <a href="{{ url_for('finWebpage') }}"><button>Get Data</button></a>
+    </form>
+
+    <h3>The webpage consists of the following information:</h3>
+
+    <div>Data:</div>
+    <div>{{txt}}</div>
+
+
+    <div>{{ sen }} sentences</div>
+    <div>{{ words }} words</div>
+    <div>{{ uniqueWords }} unique words</div>
+
+    <h4>The top words are : </h4>
+     {% for i in lst %}
+        <li>{{ i }}</li>
+    {% endfor %}
+
+    {% for i in err %}
+        <br>
+        <div>Error : </div> 
+        <li>{{ i }}</li>
+        <br>
+        <div>Suggestions : </div>
+        {% for j in sugg[err.index(i)] %}
+            <li>{{ j }}</li>
+        {% endfor %}
+        <br>
+    {% endfor %}
+
+</body>
+</html>
